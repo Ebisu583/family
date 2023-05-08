@@ -1,10 +1,12 @@
+<div class="container">
+
 <h1>This is our family 👨‍👩‍👧‍👧</h1>
 
 <ul>
-  <li><%= link_to "Meet Yuka", yuka_path %></li>
-  <li> <%= link_to "Meet Radek", radek_path %></li>
-  <li><%= link_to "Meet Maya", maya_path %></li>
-  <li><%= link_to "Meet Lisa", lisa_path %></li>
+  <li><%= link_to "Meet Yuka", yuka_path, :class => "btn btn-info" %></li>
+  <li> <%= link_to "Meet Radek", radek_path, :class => "btn btn-info" %></li>
+  <li><%= link_to "Meet Maya", maya_path, :class => "btn btn-info" %></li>
+  <li><%= link_to "Meet Lisa", lisa_path, :class => "btn btn-info" %></li>
 </ul>
-
-<p><%= link_to "Contact us", contact_path %></p>
+  <p><%= link_to "Contact us", contact_path, :class => "btn btn-primary" %></p>
+</div>
